@@ -289,7 +289,7 @@ class Map(object):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser("Generate a Twin Tubes map")
+    parser = argparse.ArgumentParser(description="Generate a Twin Tubes map")
     parser.add_argument('in_file', help='The source file for the map')
     parser.add_argument('-o', '--out-file', help='The output file name')
     args = parser.parse_args()
